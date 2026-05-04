@@ -20,6 +20,7 @@ This project is designed to evaluate the accuracy of a chat-style Singlish to Si
 - `IT23570030_test_automation.py`: The Python automation script using Playwright.
 - `IT23570030_Test_Cases.xlsx`: The Excel file containing 50 negative test cases and automated results.
 - `IT23570030_Git_Link.txt`: A text file containing the public GitHub repository link.
+- `IT23570030_requirements.txt`:Text file containing required Python packages.
 
 ## How to Run the Tests
 To run the automated transliteration tests, execute the following command in the terminal:
@@ -29,3 +30,11 @@ python IT23570030_test_automation.py --excel "IT23570030_Test_Cases.xlsx" --url 
 ## Results
 - The script automatically fills the "Actual Output" and "Status" columns in the Excel file.
 - All 50 scenarios in this project are "Negative Test Cases" designed to showcase system failures, thus the expected status for these cases is "FAIL".
+
+# Student Information
+
+Detail	Information
+Student ID	IT23570030
+Module	IT3040 - Information Technology Project Management
+Assignment	Assignment 1 (Option 1)
+Submission Date	May 2024
